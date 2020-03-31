@@ -11,25 +11,46 @@ package reply.homework;
 //200
 public class repl00121 {
 	
-	
-	static int num;
-	
+	static int number ;
 	
 	public static void main(String[] args) {
+		
+		repl00121 obj=new 	repl00121();
+		 
+		
+		
+		obj.number=200;
+		System.out.println(obj.number);        //--->  obj ile
+		System.out.println(number);            //--->static isim
+		System.out.println(repl00121.number);  //---->class ismi ile cagiriyoruz
+	
+	
 
-		repl00121 obj= new repl00121();
-		
-	    
-		obj.num=200;
-		System.out.println(obj.num);
-		System.out.println(repl00121.num);
-		
-		
+
+	
+	
+	
 	}
-
 	
 	
-
 }
-
-
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

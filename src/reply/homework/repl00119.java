@@ -19,6 +19,24 @@ package reply.homework;
 
 public class repl00119 {
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	int number;
 	String name;
 	double number1;

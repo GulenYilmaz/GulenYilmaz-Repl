@@ -19,10 +19,9 @@ package reply.homework;
 public class repl00129 {
 	
 	
-	
 		    static String surround(String s, String search_term){
 		 
-			String str=s.replaceAll(String.valueOf(search_term),"("+search_term+")");
+			String str=s.replaceAll(search_term,"("+search_term+")");
 					
 			return str;	
 					
@@ -34,8 +33,4 @@ public class repl00129 {
 				System.out.println(surround("technology","o")); //"techn(o)l(o)gy"
 			}
 		}
-
-
-
-
 
